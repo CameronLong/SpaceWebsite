@@ -1,0 +1,177 @@
+.navbar{
+  position: absolute;
+  right: 0;
+  list-style-type: none;
+  margin: 20px auto auto auto;
+  padding: 0;
+  overflow: hidden;
+  z-index: 2;
+  backdrop-filter: blur(30px);
+  width: 60%;
+}
+
+.destionation-navbar{
+    position: absolute;
+    right: 380px;
+    top: 200px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.destination-link{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.destination-link-anchor{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+li {
+  float: left;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+li :hover:not(.active) {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
+}
+
+.active {
+  border-bottom: 3px solid white;
+}
+
+.travel-h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    font-size: 175%;
+}
+
+.space-title{
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 937.5%;
+    margin: 0;
+}
+
+.intro-text{
+    font-family: 'Barlow', sans-serif;
+    color: #D0D6F9;
+    line-height: 2;
+}
+
+.home-div{
+    position: absolute;
+    width: 25%;
+    left: 125px;
+    top: 250px
+}
+
+.button-div{
+    display: inline;
+    position: absolute;
+    right: 250px;
+    bottom: 100px;
+}
+.explore-button{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 0;
+    font-family: 'Bellefair', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 5px auto 3px;
+}
+
+.info-container{
+    display: inline;
+    position: absolute;
+    left: 890px;
+    bottom: 400px;
+}
+
+.planet-name{
+    display: inline-block;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-size: 625%;
+}
+.planet-info-div{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    color: #D0D6F9;
+    line-height: 2;
+}
+
+.image{
+    display: inline;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+.planet-number{
+    display: inline;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+}
+.pick-destination{
+    display: inline;
+    color: #D0D6F9;
+}
+
+.pick-your-destination{
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    font-size: 175%;
+}
+
+.text{
+    color: rgb(125, 125, 125) !important;
+}
+
+.subheading2{
+    font-size: 87.5%;
+    margin-bottom: 0;
+}
+
+.distance{
+    font-size: 175%;
+    font-family: 'Bellefair', serif !important;
+    margin-top: 5px;
+}
+
+.time{
+    display: inline;
+    position: absolute;
+    right: 30px;
+    bottom: 2px;
+}
