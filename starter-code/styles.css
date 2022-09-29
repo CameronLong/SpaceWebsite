@@ -2,18 +2,40 @@
   position: absolute;
   right: 0;
   list-style-type: none;
-  margin: 20px auto auto auto;
+  margin: 1% auto auto auto;
   padding: 0;
   overflow: hidden;
   z-index: 2;
   backdrop-filter: blur(30px);
   width: 55%;
+  height: 9%;
+}
+.main-navbar-link-anchor {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.item-div{
+    float: left;
+    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+
 }
 
-.destionation-navbar{
+.destination-navbar{
     position: absolute;
     right: 25%;
-    top: 200px;
+    top: 26.5%;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -37,39 +59,17 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-
-.main-navbar-link {
-  float: left;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.main-navbar-link-anchor {
-  display: block;
-  color: white;
-  text-align: center;
-  padding-top: 30%;
-  padding-bottom: 30%;
-  text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif;
-}
-
-.short-word{
-    margin-top: 25%;
-    padding-bottom: 45%;
-}
-
-.crew{
-    margin-top: 25%;
-    padding-bottom: 50%;
-}
-
-li :hover:not(.active) {
+.item-div:hover:not(.active) {
     border-bottom: 3px solid rgba(255, 255, 255, 0.555);
 }
 
 .active {
   border-bottom: 3px solid white;
+}
+
+.short-word{
+    margin-top: 25%;
+    padding-bottom: 45%;
 }
 
 .travel-h2{
@@ -82,8 +82,9 @@ li :hover:not(.active) {
     font-family: 'Bellefair', serif;
     color: #FFFFFF;
     text-align: center;
-    font-size: 937.5%;
+    font-size: 937%;
     margin: 0;
+    font-weight: lighter;
 }
 
 .intro-text{
