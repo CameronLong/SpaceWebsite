@@ -81,6 +81,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     color: #D0D6F9;
     font-size: 175%;
+    font-weight: lighter;
 }
 
 .space-title{
@@ -101,25 +102,21 @@
 .home-div{
     position: absolute;
     width: 25%;
-    left: 125px;
-    top: 250px
-}
-
-.button-div{
-    display: inline;
-    position: absolute;
-    right: 250px;
-    bottom: 100px;
+    left: 10%;
+    top: 30%;
 }
 .explore-button{
-    height: 300px;
-    width: 300px;
+    position: absolute;
+    width: 20%;
+    height: 40%;
     border-radius: 50%;
     border: 0;
     font-family: 'Bellefair', serif;
-    font-size: 40px;
+    font-size: 250%;
     font-weight: lighter;
     margin: 5px auto 3px;
+    bottom: 10%;
+    right: 15%;
 }
 
 .info-container{

@@ -14,16 +14,18 @@
   <style>
     body{
       background-image: url("./assets/home/background-home-desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   </style>
 </head>
 <body>
   <div>
     <ul class="navbar">
-      <li><a class="active" href="#home"><strong>00 </strong>Home</a></li>
-      <li><a href="destination-moon.html"><strong>01 </strong>Destination</a></li>
-      <li><a href="#contact"><strong>02</strong> Crew</a></li>
-      <li><a href="#about"><strong>03</strong> Technology</a></li>
+      <li><div class="item-div active"><a class="main-navbar-link-anchor" href="index.html"><strong>00 </strong>Home</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor" href="destination-moon.html"><strong>01 </strong>Destination</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor crew" href="#contact"><strong>02</strong> Crew</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor" href="#about"><strong>03</strong> Technology</a></div></li>
     </ul>
   </div>
 
@@ -37,7 +39,7 @@
     </p>
   </div>
   <div class="button-div">
-    <button class="explore-button">EXPLORE</button>
+    <button class="explore-button" onclick="location.href = 'destination-moon.html';">EXPLORE</button>
   </div>
 </body>
 </html>
