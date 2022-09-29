@@ -34,13 +34,14 @@
 
 .destination-navbar{
     position: absolute;
-    right: 25%;
-    top: 26.5%;
+    display: block;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     z-index: 2;
     padding-bottom: 2.5%;
+    margin-bottom: 5%;
+    bottom: 110%;
 }
 
 .destination-link{
@@ -65,6 +66,10 @@
 
 .active {
   border-bottom: 3px solid white;
+}
+
+.destination-link-anchor:hover:not(.active) {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
 }
 
 .short-word{
@@ -126,7 +131,7 @@
 }
 
 .planet-name{
-    display: inline-block;
+    display: block;
     font-family: 'Bellefair', serif;
     color: #FFFFFF;
     font-size: 625%;
@@ -170,6 +175,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     color: #D0D6F9;
     font-size: 175%;
+    font-weight: light;
 }
 
 .text{
