@@ -7,17 +7,18 @@
   overflow: hidden;
   z-index: 2;
   backdrop-filter: blur(30px);
-  width: 60%;
+  width: 55%;
 }
 
 .destionation-navbar{
     position: absolute;
-    right: 380px;
+    right: 25%;
     top: 200px;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     z-index: 2;
+    padding-bottom: 2.5%;
 }
 
 .destination-link{
@@ -37,20 +38,30 @@
 }
 
 
-li {
+.main-navbar-link {
   float: left;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
-li a {
+.main-navbar-link-anchor {
   display: block;
   color: white;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30%;
+  padding-bottom: 30%;
   text-decoration: none;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.short-word{
+    margin-top: 25%;
+    padding-bottom: 45%;
+}
+
+.crew{
+    margin-top: 25%;
+    padding-bottom: 50%;
 }
 
 li :hover:not(.active) {
@@ -106,10 +117,11 @@ li :hover:not(.active) {
 }
 
 .info-container{
-    display: inline;
+    display: inline-block;
     position: absolute;
-    left: 890px;
-    bottom: 400px;
+    left: 57%;
+    bottom: 47%;
+    width: 25%;
 }
 
 .planet-name{
@@ -119,7 +131,7 @@ li :hover:not(.active) {
     font-size: 625%;
 }
 .planet-info-div{
-    display: inline;
+    display: block;
     position: absolute;
     width: 100%;
     font-family: 'Barlow', sans-serif;
@@ -127,11 +139,16 @@ li :hover:not(.active) {
     line-height: 2;
 }
 
+.planet-description{
+    margin-bottom: 10%;
+}
+
 .image{
     display: inline;
     position: absolute;
-    top: 250px;
-    left: 200px;
+    width: 27%;
+    top: 35%;
+    left: 16%;
 }
 
 .planet-number{
@@ -159,19 +176,28 @@ li :hover:not(.active) {
 }
 
 .subheading2{
+    display: inline;
     font-size: 87.5%;
     margin-bottom: 0;
 }
 
-.distance{
-    font-size: 175%;
-    font-family: 'Bellefair', serif !important;
-    margin-top: 5px;
+.avg{
+    display: block;
 }
 
-.time{
+.avg-distance{
     display: inline;
     position: absolute;
-    right: 30px;
-    bottom: 2px;
+    font-size: 87.5%;
+    font-family: 'Bellefair', serif !important;
+}
+.travel-time{
+    display: inline;
+    position: absolute;
+    font-size: 87.5%;
+    font-family: 'Bellefair', serif !important;
+    left: 55%;
+}
+.distance-h2{
+    font-size: 175% !important;
 }
