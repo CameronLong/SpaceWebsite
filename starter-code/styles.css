@@ -1,3 +1,6 @@
+/* Start of nav bar styling*/
+
+/* Main nav bar styles*/
 .navbar{
   position: absolute;
   right: 0;
@@ -29,9 +32,12 @@
     padding-bottom: 2.5%;
     padding-left: 8%;
     padding-right: 8%;
-
+}
+.item-div:hover:not(.active) {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
 }
 
+/* Destination nav bar styles*/
 .destination-navbar{
     position: absolute;
     display: block;
@@ -43,13 +49,11 @@
     margin-bottom: 5%;
     bottom: 110%;
 }
-
 .destination-link{
     float: left;
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .destination-link-anchor{
     display: block;
     color: white;
@@ -59,23 +63,13 @@
     text-decoration: none;
     font-family: 'Barlow Condensed', sans-serif;
 }
-
-.item-div:hover:not(.active) {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
-}
-
 .active {
   border-bottom: 3px solid white;
 }
-
 .destination-link-anchor:hover:not(.active) {
     border-bottom: 3px solid rgba(255, 255, 255, 0.555);
 }
-
-.short-word{
-    margin-top: 25%;
-    padding-bottom: 45%;
-}
+/* End of navbar styling*/
 
 .travel-h2{
     font-family: 'Barlow Condensed', sans-serif;
@@ -119,6 +113,8 @@
     right: 15%;
 }
 
+
+/* Start of everything used for destination pages*/
 .info-container{
     display: inline-block;
     position: absolute;
@@ -126,7 +122,6 @@
     bottom: 47%;
     width: 25%;
 }
-
 .planet-name{
     display: block;
     font-family: 'Bellefair', serif;
@@ -141,11 +136,9 @@
     color: #D0D6F9;
     line-height: 2;
 }
-
 .planet-description{
     margin-bottom: 10%;
 }
-
 .image{
     display: inline;
     position: absolute;
@@ -153,7 +146,6 @@
     top: 35%;
     left: 16%;
 }
-
 .planet-number{
     display: inline;
     font-family: 'Barlow Condensed', sans-serif;
@@ -163,7 +155,6 @@
     display: inline;
     color: #D0D6F9;
 }
-
 .pick-your-destination{
     display: inline;
     position: absolute;
@@ -178,17 +169,11 @@
 .text{
     color: rgb(125, 125, 125) !important;
 }
-
 .subheading2{
     display: inline;
     font-size: 87.5%;
     margin-bottom: 0;
 }
-
-.avg{
-    display: block;
-}
-
 .avg-distance{
     display: inline;
     position: absolute;
@@ -205,3 +190,5 @@
 .distance-h2{
     font-size: 175% !important;
 }
+
+/*End of everything used for destination pages*/
