@@ -192,3 +192,31 @@
 }
 
 /*End of everything used for destination pages*/
+
+.crew-name{
+    display: block;
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-size: 311%;
+}
+
+.crew-info-div{
+    display: block;
+    position: absolute;
+    width: 30%;
+    font-family: 'Barlow', sans-serif;
+    color: #D0D6F9;
+    line-height: 2;
+}
+
+.crew-occupation{
+    font-family: 'Bellefair', serif;
+    color: rgb(125, 125, 125) !important;
+    font-size: 200%;
+    font-weight: lighter;
+    margin: 0 auto 0 auto;
+}
+
+.crew-member-info{
+
+}
