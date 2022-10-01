@@ -76,6 +76,9 @@
     color: #D0D6F9;
     font-size: 2rem;
     font-weight: lighter;
+    display: inline-block;
+    width: 30rem;
+    margin: 0 auto 0 auto;
 }
 
 .space-title{
@@ -103,6 +106,7 @@
 }
 .explore-button{
     position: absolute;
+    display: block;
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
