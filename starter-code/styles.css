@@ -11,7 +11,7 @@
   z-index: 2;
   backdrop-filter: blur(30px);
   width: 55%;
-  height: 9%;
+  height: 7.6%;
 }
 .main-navbar-link-anchor {
     display: block;
@@ -283,4 +283,38 @@
     background-color: white;
     border-radius: 50%;
     display: inline-block;
+}
+
+.tech-navbar{
+    display: inline;
+    position: absolute;
+    bottom: 25%;
+    left: 7%;
+    list-style-type: none;
+}
+
+.tech-button{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-family: 'Bellefair', serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+}
+.tech-button.active{
+    background-color: white;
+    color: black;
+}
+
+.tech-link{
+    padding: 1rem;
+}
+
+.tech-info{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
 }

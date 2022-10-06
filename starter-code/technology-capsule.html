@@ -4,29 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bellefair&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Space tourism website</title>
+  <style>
+    body{
+      background-image: url("./assets/technology/background-technology-desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    @media only screen and (max-width: 767px) {
+    body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url("./assets/home/background-home-mobile.jpg");
+      background-attachment: fixed;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div>
+    <ul class="navbar">
+      <li><div class="item-div active"><a class="main-navbar-link-anchor" href="index.html"><strong>00 </strong>Home</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor" href="destination-moon.html"><strong>01 </strong>Destination</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor crew" href="crew-commander.html"><strong>02</strong> Crew</a></div></li>
+      <li><div class="item-div"><a class="main-navbar-link-anchor" href="technology-vehicle.html"><strong>03</strong> Technology</a></div></li>
+    </ul>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="pick-your-destination"><h3><span class="text">03</span>&nbsp&nbsp&nbsp&nbspS P A C E &nbsp&nbsp L A U N C H &nbsp&nbsp 101</h3></div>
 
-  03 Space launch 101
+  <ul class="tech-navbar">
+    <li class="tech-link"><a href="technology-vehicle.html"><button class="tech-button">1</button></a></li>
+    <li class="tech-link"><a href="technology-spaceport.html"><button class="tech-button">2</button></a></li>
+    <li class="tech-link"><a href="technology-capsule.html"><button class="tech-button active">3</button></a></li>
+  </ul>
 
-  1
-  2
-  3
-
-  The terminology...
-  Space capsule
-
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-  you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
+  <div class="tech-info">
+    <h2 class="crew-occupation">THE TERMINOLOGY...</h2>
+    <div class="crew-name">SPACE CAPSULE</div>
+    <div class="crew-info-div">
+      <p class="planet-description">
+        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+        you'll spend your time during the flight. It includes a space gym, cinema, 
+        and plenty of other activities to keep you entertained.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
