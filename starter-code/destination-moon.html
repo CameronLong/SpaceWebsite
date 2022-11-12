@@ -11,18 +11,32 @@
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Space tourism website</title>
   <style>
-    body{
-      background-image: url("assets/destination/background-destination-desktop.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
+    @media screen and (min-width: 1024px) {
+      body {
+        /* The file size of this background image is 93% smaller
+        * to improve page load speed on mobile internet connections */
+        background-image: url("./assets/destination/background-destination-desktop.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        }
     }
-    @media only screen and (max-width: 767px) {
-    body {
-      /* The file size of this background image is 93% smaller
-       * to improve page load speed on mobile internet connections */
-      background-image: url("./assets/home/background-destination-mobile.jpg");
-      background-attachment: fixed;
-      }
+    @media screen and (max-width: 1024px) {
+      body {
+        /* The file size of this background image is 93% smaller
+        * to improve page load speed on mobile internet connections */
+        background-image: url("./assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        }
+    }
+    @media screen and (max-width: 720px) {
+      body {
+        /* The file size of this background image is 93% smaller
+        * to improve page load speed on mobile internet connections */
+        background-image: url("./assets/destination/background-destination-mobile.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        }
     }
   </style>
 </head>
